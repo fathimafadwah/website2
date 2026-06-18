@@ -115,7 +115,22 @@
   .call-to-action {
     grid-template-columns: repeat(2, 300px);
   }
-
+  .card-container1,
+  .card-container2 {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .box {
+    width: 400px;
+  }
+  .map iframe {
+    width: 700px;
+  }
+ .map{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+ }
 }
 @media screen and (max-width: 480px) {
   .columns {
@@ -129,7 +144,7 @@
   .hero {
     width: 430px;
   }
-  .hero-content{
+  .hero-content {
     padding: 0;
     margin-left: 40%;
   }
@@ -149,10 +164,18 @@
   .quote {
     width: 400px;
   }
-   .services {
+  .services {
     grid-template-columns: 1fr;
   }
   .call-to-action {
     grid-template-columns: 1fr;
+  }
+  .card-container1,
+  .card-container2 {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .box {
+    width: 200px;
   }
 }
