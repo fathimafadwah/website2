@@ -109,6 +109,13 @@
   footer {
     margin-top: 20px;
   }
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .call-to-action {
+    grid-template-columns: repeat(2, 300px);
+  }
+
 }
 @media screen and (max-width: 480px) {
   .columns {
@@ -141,5 +148,11 @@
   }
   .quote {
     width: 400px;
+  }
+   .services {
+    grid-template-columns: 1fr;
+  }
+  .call-to-action {
+    grid-template-columns: 1fr;
   }
 }

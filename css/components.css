@@ -13,3 +13,60 @@
 .value:hover{
     box-shadow: 1px 1px 10px black;
 }
+.services article {
+  border: 3px solid rgb(28, 91, 38);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(222, 233, 202);
+  box-shadow: 0px 0px 0px gray;
+  transition: box-shadow 0.25s;
+}
+.services article:hover{
+box-shadow: 5px 5px 10px rgb(90, 89, 89);
+
+}
+.services article p {
+  text-align: justify;
+}
+.call-to-action div {
+  display: flex;
+  justify-content: center;
+  border: 3px solid rgb(10, 56, 20);
+  background-color: rgb(243, 242, 237);
+  padding: 10px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.call-to-action-form form {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 30px;
+}
+.comparison {
+  display: flex;
+  justify-content: center;
+}
+table caption {
+  font-size: 25px;
+}
+tr,
+td,
+th {
+  border: 1px solid black;
+  padding: 20px;
+  width: 100px;
+}
+th:nth-child(3),
+td:nth-child(3) {
+  font-weight: bold;
+  border: 3px solid black;
+}
+tbody tr:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+thead tr{
+    background-color: rgb(235, 234, 234);
+   
+}

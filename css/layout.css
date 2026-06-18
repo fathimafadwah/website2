@@ -31,34 +31,44 @@ header ul li {
 header h1 {
   color: rgb(62, 108, 62);
 }
-header img{
-    width: 100px;
-    height: 100px;
+header img {
+  width: 100px;
+  height: 100px;
 }
-.about-container{
-    margin-left: 30px;
-    font-size: 18px;
+.about-container {
+  margin-left: 30px;
+  font-size: 18px;
 }
-.company-history,.mission,.values{
-    border-left: 3px solid darkgreen;
-    border-right: 3px solid darkgreen;
-    padding-left: 30px;
-    border-radius: 30px;
-    padding: 10px;
-    margin-bottom:3% ;
-    background-image: linear-gradient(45deg,white,rgb(220, 220, 220));
-    
+.company-history,
+.mission,
+.values {
+  border-left: 3px solid darkgreen;
+  border-right: 3px solid darkgreen;
+  padding-left: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 3%;
+  background-image: linear-gradient(45deg, white, rgb(220, 220, 220));
 }
-.values{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
-    column-gap: 30px;
+.values {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  column-gap: 30px;
 }
 
-
-
-
-
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 10px;
+}
+.call-to-action {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 30px;
+  margin: 20px;
+  justify-content: center;
+}
 .fa {
   padding: 10px;
   border-radius: 50px;
@@ -106,4 +116,3 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-
