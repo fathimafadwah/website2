@@ -6,47 +6,55 @@
   border-radius: 25px;
   padding-left: 20px;
   transition: box-shadow 0.25s;
-  box-shadow: 0px 0px 0px black;
+  box-shadow: 0 0 0 black;
 }
+
 .value:hover {
-  box-shadow: 1px 1px 10px black;
+  box-shadow: 1px 1px 10px #000;
 }
+
 .services article {
-  border: 3px solid rgb(28, 91, 38);
+  border: 3px solid rgb(28 91 38);
   padding: 20px;
   border-radius: 10px;
-  background-color: rgb(222, 233, 202);
-  box-shadow: 0px 0px 0px gray;
+  background-color: rgb(222 233 202);
+  box-shadow: 0 0 0 gray;
   transition: box-shadow 0.25s;
 }
+
 .services article:hover {
-  box-shadow: 5px 5px 10px rgb(90, 89, 89);
+  box-shadow: 5px 5px 10px rgb(90 89 89);
 }
+
 .services article p {
   text-align: justify;
 }
+
 .call-to-action div {
   display: flex;
-  justify-content: center;
-  border: 3px solid rgb(10, 56, 20);
-  background-color: rgb(243, 242, 237);
+  place-content: center center;
+  border: 3px solid rgb(10 56 20);
+  background-color: rgb(243 242 237);
   padding: 10px;
   border-radius: 10px;
   flex-wrap: wrap;
-  align-content: center;
 }
+
 .call-to-action-form form {
   display: grid;
   grid-template-columns: 1fr;
   padding: 30px;
 }
+
 .comparison {
   display: flex;
   justify-content: center;
 }
+
 table caption {
   font-size: 25px;
 }
+
 tr,
 td,
 th {
@@ -54,45 +62,53 @@ th {
   padding: 20px;
   width: 100px;
 }
+
 th:nth-child(3),
 td:nth-child(3) {
   font-weight: bold;
   border: 3px solid black;
 }
+
+thead tr {
+  background-color: rgb(235 234 234);
+}
+
 tbody tr:nth-child(odd) {
   background-color: black;
   color: white;
 }
-thead tr {
-  background-color: rgb(235, 234, 234);
-}
+
 .filter a {
   padding: 10px;
-  border: 2px solid rgb(4, 61, 21);
+  border: 2px solid rgb(4 61 21);
   text-decoration: none;
-  color: black;
+  color: #000;
 }
+
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgb(238, 238, 238);
+  border: 1px solid rgb(238 238 238);
   border-radius: 15px;
   padding-top: 10px;
-  box-shadow: 1px 1px 1px rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px rgb(255 255 255);
   transition: box-shadow 0.5s;
   transition-timing-function: ease;
 }
+
 .card:hover {
   box-shadow: 1px 1px 8px gray;
 }
+
 .card img {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  border: 1px solid rgb(216, 216, 216);
+  border: 1px solid rgb(216 216 216);
 }
+
 .card-content {
   display: flex;
   flex-direction: column;
@@ -100,24 +116,27 @@ thead tr {
   margin-top: -23px;
   padding-right: 10px;
 }
+
 .card-content h3 {
   font-size: 38px;
   margin-bottom: -15px;
 }
+
 .input-field {
   height: 30px;
-  transition: all 0.15s;
   transition: all 0.15s;
   background-color: transparent;
   outline: none;
   width: 80%;
-  color: rgb(31, 28, 28);
+  color: rgb(31 28 28);
   border: 2px solid black;
 }
+
 .box-header {
   display: grid;
   row-gap: 2em;
 }
+
 .box-header > h2 {
   margin: 0;
   font-size: 1.563em;
@@ -125,19 +144,23 @@ thead tr {
   text-align: center;
   color: #09532f;
 }
+
 .box-body > form {
   display: grid;
   row-gap: 1.6em;
 }
+
 .floating-label-input {
   position: relative;
 }
+
 .input-text {
   width: 100%;
   padding: 1em;
   border: 1px solid #c2c2c2;
   border-radius: 5px;
 }
+
 .input-text::placeholder {
   opacity: 0;
 }
@@ -146,15 +169,17 @@ thead tr {
   position: absolute;
   top: 50%;
   left: 1em;
-  color: #999999;
+  color: #999;
   background: white;
   transform: translateY(-50%);
   cursor: text;
   transition: all 0.1s ease-out;
 }
+
 .input-text:focus {
   outline: 2px solid #0d4c92;
 }
+
 .input-text:focus + label,
 .input-text:not(:placeholder-shown) + label {
   padding: 0 0.5em;
@@ -163,9 +188,11 @@ thead tr {
   font-size: 0.8em;
   font-weight: 500;
 }
+
 .input-text:focus + label {
   color: #0d4c92;
 }
+
 .button-group > input[type="button"] {
   padding: 1em;
   width: 100%;
